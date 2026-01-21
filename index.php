@@ -329,11 +329,11 @@ $shop_name = $_SESSION['shop_name'] ?? '';
         }
 
         th:first-child {
-            border-radius: 12px 0 0 0;
+            border-radius: 0 12px 0 0;
         }
 
         th:last-child {
-            border-radius: 0 12px 0 0;
+            border-radius: 12px 0 0 0;
         }
 
         td {
